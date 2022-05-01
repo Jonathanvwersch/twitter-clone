@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black;
+  }
+}
+
+@layer components {
+  .hoverAnimation {
+    @apply cursor-pointer rounded-full transition-all duration-200 ease-out hover:bg-[#E7E9EA] hover:bg-opacity-10;
+  }
+  .overflow {
+    @apply overflow-hidden text-ellipsis whitespace-nowrap;
+  }
+}
